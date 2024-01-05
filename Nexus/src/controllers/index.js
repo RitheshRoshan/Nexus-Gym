@@ -21,5 +21,17 @@ function closeSignupForm() {
 }
 
 function signup(){
-    window.alert("SIGN UP SUCCESSFUL !!")
+    alert('SIGN UP SUCCESSFUL !!')
 }
+
+document.querySelector('.toggle').addEventListener('click', function() {
+    document.querySelector('.head-content ul').classList.toggle('show');
+    document.querySelector('.toggle').style.display = 'none';
+    document.querySelector('.close').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function() {
+    document.querySelector('.head-content ul').classList.toggle('show');
+    document.querySelector('.toggle').style.display = 'block';
+    document.querySelector('.close').style.display = 'none';
+});

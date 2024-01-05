@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Centre</title>
+    <script src="../../src/controllers/index.js"></script>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="../../assests/images/card.png" type="image/x-icon">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 <body>
+    
        <header>
             <nav>
                 <div class="logo">
@@ -30,9 +32,10 @@
                     <li><a href="#trainers">TRAINERS</a></li>
                     
                 </ul>
-            </div>
+               
             </nav>
         </header> 
+    
     <section id="banner">
         <!-- <img id="banner-img"  src="../../assests/images/banner.png" alt=""> -->
         <video autoplay muted loop id="myVideo">
@@ -48,16 +51,23 @@
     </div>
     </section>
     <section id="about">
-        <h2>About Our Fitness Centre</h2>
-        <p>
-            Welcome to our Fitness Centre, where we are dedicated to helping you achieve your health and fitness goals. Our state-of-the-art facilities, experienced trainers, and diverse range of programs make us the perfect place for individuals of all fitness levels.
-        </p>
-        <p>
-            At our fitness center, we believe in promoting a holistic approach to health. Whether you are looking to build strength, improve flexibility, or enhance your overall well-being, we have the right programs tailored for you. Our professional trainers are committed to providing guidance, motivation, and personalized support to ensure you get the most out of your fitness journey.
-        </p>
-        <p>
-            Join us today and embark on a path to a healthier and happier lifestyle. We offer a variety of classes, modern equipment, and a positive community that will inspire and empower you on your fitness adventure.
-        </p>
+        <div class="about-main">
+        <div class="about-img">
+            <img src="../../assests/images/about-card.png" alt="">
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>
+                Welcome to our Fitness Centre, where we are dedicated to helping you achieve your health and fitness goals. Our state-of-the-art facilities, experienced trainers, and diverse range of programs make us the perfect place for individuals of all fitness levels.
+                 At our fitness center, we believe in promoting a holistic approach to health.Regular exercise and physical activity promotes strong muscles and bones. It improves respiratory, cardiovascular health, and overall health. Staying active can also help you maintain a healthy weight, reduce your risk for type 2 diabetes, heart disease, and reduce your risk for some cancers.
+ 
+            </p>
+            
+        </div>
+    </div>
     </section>
     <section id="program">
         <div class="chooseprg">
@@ -121,13 +131,12 @@
 </div>
 </div>
     </section>
-    <section id="poster">
-        <h2>DON'T THINK , BEGIN TODAY </h2>
-        <p>At our fitness center, we believe in promoting a holistic approach to health. Whether you are looking to build strength, improve flexibility, or enhance your overall well-being, we have the right programs tailored for you. Our professional trainers are committed to providing guidance, motivation, and personalized support to ensure you get the most out of your fitness journey.</p>
-    </section>
     <section id="classes">
+        <div class="sched">
+        <h2>SCHEDULE</h2>
+    </div>
         <div class="timetable">
-            <h2>SCHEDULE</h2>
+            
             <table>
                 <tr>
                     <th>Day</th>
@@ -197,6 +206,7 @@
     </section>
     <section id="Sign"> 
         <form>
+            <h3>SIGN ON THE GO !</h3>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
     
@@ -233,9 +243,9 @@
 
             <div class="social-media">
                 <h3>Connect with Us</h3>
-                <a href="#" target="_blank"><img src="../..//assests/images/facebook.png" alt="Facebook">@fitnesscentre</a>
-                <a href="#" target="_blank"><img src="../../assests/images/x.png" alt="Twitter">@fitnesscentre</a>
-                <a href="#" target="_blank"><img src="../../assests/images/instagram.png" alt="Instagram">@fitnesscentre</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   fitnesscentre</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  fitnesscentre</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  fitnesscentre</a>
             </div>
         </div>
 
